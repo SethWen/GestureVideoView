@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:visibility="gone">
+
+    <LinearLayout
+        android:id="@+id/ll_seek"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_rectangle_gesture_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_seek"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_fast_forward_white_24dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_seek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:39"
+            android:textColor="#FFF"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_brightness"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_rectangle_gesture_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_brightness"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_wb_sunny_white_24dp"/>
+
+        <ProgressBar
+            android:id="@+id/pb_brightness"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progress="70"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_volume"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_rectangle_gesture_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_volume"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_volume_up_white_24dp"/>
+
+        <ProgressBar
+            android:id="@+id/pb_volume"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progress="70"/>
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YiyaVideoView">
+        <attr name="useController" format="dimension"/>
+        <attr name="starImageWidth" format="dimension"/>
+        <attr name="starImageHeight" format="dimension"/>
+        <attr name="starImageHorizontalMargin" format="dimension"/>
+        <attr name="starCount" format="integer"/>
+        <attr name="rating" format="float"/>
+        <attr name="starEmpty" format="reference"/>
+        <attr name="starFill" format="reference"/>
+        <attr name="starHalf" format="reference"/>
+    </declare-styleable>
+</resources>

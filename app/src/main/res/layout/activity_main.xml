@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shawn.videoview.MainActivity">
+
+    <com.shawn.videoview.media.GestureVideoView
+        android:id="@+id/ijk_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.shawn.videoview.media.GestureVideoView>
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="快进5s"/>
+
+
+</LinearLayout>
