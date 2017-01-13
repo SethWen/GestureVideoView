@@ -417,12 +417,9 @@ public class GestureVideoView extends FrameLayout implements AbsControllerView.M
         View errorRootView = mErrorView.getRootView();
         errorRootView.setLayoutParams(params);
         
-        mErrorView.setOnReloadClickListener(new AbsErrorView.OnReloadClickListener() {
-            @Override
-            public void onReload() {
-                Log.i(TAG, "onReload: ");
-                openVideo();
-            }
+        mErrorView.setOnReloadClickListener(() -> {
+            Log.i(TAG, "onReload: ");
+            openVideo();
         });
 
         this.addView(errorRootView);
