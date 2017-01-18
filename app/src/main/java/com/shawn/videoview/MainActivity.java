@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements OnVideoLifeCycleL
             //                ijkVideoView.seekTo(seekTo);
         });
         Log.d(TAG, "onCreate: " + "test");
-
+        Log.d(TAG, "onCreate: ");
     }
 
     @Override
